@@ -1,3 +1,6 @@
+# Given a list of numbers find the highest and second highest numbers.
+
+
 def highest_numbers(arr):
     max_num = [arr[0]]
 
@@ -43,6 +46,6 @@ print(highest_numbers(my_list))
 print(built_ins(my_list, 3))
 print(second_high(my_list))
 
-
+# Test to see if for loops still work (...They do!)
 for i in range(0, 5):
     print("iteration number " + str(i))
