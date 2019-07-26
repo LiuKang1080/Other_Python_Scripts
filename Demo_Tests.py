@@ -35,8 +35,8 @@ def pythagorean_triplet():
                 if (a + b + c) == 1000 and ((a**2) + (b**2)) == (c**2) and a < b < c:
                     print(a, b, c)
 
-
     dt1 = datetime.now() - t0
     print(dt1)
+
 
 pythagorean_triplet()
