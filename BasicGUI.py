@@ -1,6 +1,7 @@
 import tkinter
 import os
 
+
 # create the main window in tkinter, called the master window. Remember that not all objects in tkinter have a children, but all objects in tkinter have a parent object, except the master.
 master = tkinter.Tk()
 master.title = 'Advanced GUI Demo'
@@ -113,26 +114,4 @@ daySpin.grid(row=1, column=0, sticky='new')
 monthSpin.grid(row=1, column=1, sticky='new')
 yearSpin.grid(row=1, column=2, sticky='new')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 master.mainloop()
-
